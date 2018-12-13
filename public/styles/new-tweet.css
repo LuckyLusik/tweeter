@@ -1,0 +1,44 @@
+.new-tweet {
+  border-radius: 5px;
+  background-color: #eee;
+  margin: 2em;
+  padding: 10px;
+  display: none;
+}
+
+.new-tweet textarea {
+  padding: 5px;
+  width: 100%;
+}
+
+footer .counter {
+  float: right;
+  text-align: right;
+}
+
+.warning {
+  color: red;
+}
+
+#tweet-mistake {
+  border-radius: 5px;
+  background-color: #ffd1d1;
+  padding: 10px;
+  margin-top: 10px;
+  display: none;
+  width: 100%;
+
+}
+
+#tweet-mistake p {
+  margin: 5px 0;
+}
+
+
+#tweet-mistake img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 4px;
+}
