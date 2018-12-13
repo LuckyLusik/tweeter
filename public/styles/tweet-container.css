@@ -1,0 +1,77 @@
+.tweet-container {
+  border-radius: 5px;
+  border-color: #eee;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  margin: 2em;
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+.tweet-container:hover {
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+article.tweet-container header {
+  background-color: #eee;
+  padding: 5px;
+  height: 70px;
+  width: 100%;
+}
+
+article.tweet-container header h2 {
+  width: 40%;
+  float: left;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+header p.nickname {
+  width: 30%;
+  float: right;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+article.tweet-container header img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 5px;
+}
+
+article.tweet-container footer {
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 5px;
+  font-size: 0.7em;
+  width: 100%;
+  height: 30px;
+}
+
+article.tweet-container footer p {
+  margin: 2px 0 0 0;
+  width: 50%;
+  float: left;
+}
+
+article.tweet-container footer img.icons {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+article.tweet-container:hover footer img.icons {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+article div {
+  padding-left: 5px;
+}
