@@ -1,5 +1,7 @@
 "use strict";
 
+// When given the tweet data helpers, configures and returns an express.Router()
+// describing the routes for a simple "tweets" JSON API
 const userHelper    = require("../lib/util/user-helper")
 
 const express       = require('express');
