@@ -21,7 +21,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
 
     <!-- App JS -->
-
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
 
@@ -44,10 +43,12 @@
         <form id="tweet-form" method="POST" action="/tweets">
           <textarea name="text" placeholder="What are you humming about?"></textarea>
           <footer>
-          <input type="submit" value="Tweet">
-          <span class="counter">140</span>
-        </footer>
+            <input type="submit" value="Tweet">
+            <span class="counter">140</span>
+          </footer>
         </form>
+
+        <!-- Place to display a mistake message -->
         <div id="tweet-mistake">
         </div>
       </section>
@@ -55,12 +56,12 @@
       </section>
 
     </main>
-<script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
   </body>
 </html>
 
 
-<!--
+<!-- This will be created for section with id="tweets-container"
   <article class="tweet-container">
           <header>
             <img src="/images/avatar.png">
