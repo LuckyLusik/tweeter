@@ -16,6 +16,16 @@ footer .counter {
   text-align: right;
 }
 
+.new-tweet footer input {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  outline: none;
+}
+
+.new-tweet footer input:hover {
+  background-color: #D3D3D3;
+}
+
 .warning {
   color: red;
 }
