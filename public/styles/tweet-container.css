@@ -31,6 +31,7 @@ article.tweet-container header h2 {
 header p.nickname {
   width: 30%;
   float: right;
+  text-align: right;
   margin-left: 5px;
   margin-top: 8px;
 }
